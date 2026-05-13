@@ -10,17 +10,17 @@ const Footer = () => {
           <div className="share">
             <a href="#" className="fab fa-facebook-f"></a>
             <a href="#" className="fab fa-twitter"></a>
-            <a href="#" className="fab fa-instagram"></a>
+            <a href="https://instagram.com/" target='_blank' className="fab fa-instagram"></a>
             <a href="#" className="fab fa-linkedin"></a>
           </div>
         </div>
 
         <div className="box">
           <h3>contact info</h3>
-          <a href="#" className="links"> <i className="fas fa-phone"></i> +1 (555) 123-4567 </a>
-          <a href="#" className="links"> <i className="fas fa-phone"></i> +1 (555) 987-6543 </a>
-          <a href="#" className="links"> <i className="fas fa-envelope"></i> hello@coffeecafe.com </a>
-          <a href="#" className="links"> <i className="fas fa-map-marker-alt"></i> New York, USA - 10001 </a>
+          <a href="#" className="links"> <i className="fas fa-phone"></i> +91 123-4567 </a>
+          <a href="#" className="links"> <i className="fas fa-phone"></i> +91 123-4567 </a>
+          <a href="#" className="links"> <i className="fas fa-envelope"></i>cafe@example.com</a>
+          <a href="#" className="links"> <i className="fas fa-map-marker-alt"></i> Jaipur, INDIA - 302001 </a>
         </div>
 
         <div className="box">
@@ -40,7 +40,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="credit"> created by <span>AI Assistant</span> | all rights reserved </div>
+      <div className="credit"><span>2026</span> | All rights reserved </div>
     </section>
   );
 };

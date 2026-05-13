@@ -20,6 +20,17 @@
 .product-card:hover {
   transform: translateY(-10px);
   box-shadow: 0 10px 40px rgba(0, 0, 0, 0.4);
+  background: #fff;
+}
+
+.product-card:hover .product-info h3,
+.product-card:hover .product-info p,
+.product-card:hover .price {
+  color: var(--primary-brown);
+}
+
+.product-card:hover .product-image {
+  border-color: var(--primary-brown);
 }
 
 .product-image {

@@ -31,7 +31,7 @@ const Instagram = () => {
           </div>
         </div>
         <div className="box">
-          <img src="https://images.unsplash.com/photo-1495474472201-440ba4acfa00?q=80&w=2070&auto=format&fit=crop" alt="Insta 5" />
+          <img src="https://images.pexels.com/photos/31569880/pexels-photo-31569880/free-photo-of-cozy-cafe-interior-with-ambient-lighting.jpeg" alt="Insta 5" />
           <div className="icon">
             <i className="fab fa-instagram"></i>
           </div>

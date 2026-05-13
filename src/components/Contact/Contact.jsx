@@ -36,18 +36,18 @@ const Contact = () => {
         <div className="info">
           <i className="fas fa-map-marker-alt"></i>
           <h3>Address</h3>
-          <p>123 Coffee Street, NY 10001</p>
+          <p>Malviya Nagar, Jaipur, India - 302004</p>
         </div>
         <div className="info">
           <i className="fas fa-envelope"></i>
           <h3>Email</h3>
-          <p>hello@coffeecafe.com</p>
+          <p>cafe@example.com</p>
         </div>
         <div className="info">
           <i className="fas fa-phone"></i>
           <h3>Phone</h3>
-          <p>+1 (555) 123-4567</p>
-          <a href="tel:+15551234567" className="btn mobile-call-btn">Call Us Now</a>
+          <p>+91 123-4567890</p>
+          <a href="tel:+911234567890" className="btn mobile-call-btn">Call Us Now</a>
         </div>
       </div>
     </section>

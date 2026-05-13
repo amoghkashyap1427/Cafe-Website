@@ -40,9 +40,9 @@ const About = () => {
           <img src="https://images.unsplash.com/photo-1445116572660-236099ec97a0?q=80&w=2071&auto=format&fit=crop" alt="Gallery 1" />
           <img src="https://images.unsplash.com/photo-1511920170033-f8396924c348?q=80&w=1974&auto=format&fit=crop" alt="Gallery 2" />
           <img src="https://images.unsplash.com/photo-1600093463592-8e36ae95ef56?q=80&w=2070&auto=format&fit=crop" alt="Gallery 3" />
-          <img src="https://images.unsplash.com/photo-1495474472201-440ba4acfa00?q=80&w=2070&auto=format&fit=crop" alt="Gallery 4" />
+          <img src="https://b.zmtcdn.com/data/pictures/8/310188/53fb0f6a406b3affc6b6025fb6146bba_featured_v2.jpg" alt="Gallery 4" />
           <img src="https://images.unsplash.com/photo-1559925393-8be0ec4767c8?q=80&w=2071&auto=format&fit=crop" alt="Gallery 5" />
-          <img src="https://images.unsplash.com/photo-1521017430209-f609ce59f61b?q=80&w=2069&auto=format&fit=crop" alt="Gallery 6" />
+          <img src="https://liquid-leds.com/cdn/shop/articles/how-can-great-lighting-create-perfect-ambience-in-your-cafe-376236.jpg?v=1747548293&width=500" alt="Gallery 6" />
         </div>
       </div>
     </section>
