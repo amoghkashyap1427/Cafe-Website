@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap');
+
+:root {
+  --primary-brown: #4A2C0A;
+  --secondary-brown: #8B4513;
+  --cream: #F5E6C8;
+  --soft-white: #fafafa;
+  --text-dark: #333;
+  --text-light: #f5f5f5;
+  --glass-bg: rgba(255, 255, 255, 0.1);
+  --glass-border: rgba(255, 255, 255, 0.2);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  list-style: none;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  scroll-padding-top: 7rem;
+}
+
+body {
+  /* Using a dark premium coffee background image from Unsplash */
+  background: url('https://images.unsplash.com/photo-1497935586351-b67a49e012bf?auto=format&fit=crop&w=1920&q=80') no-repeat center center fixed;
+  background-size: cover;
+  color: var(--text-light);
+  font-family: 'Inter', sans-serif;
+  position: relative;
+  min-height: 100vh;
+}
+
+/* Dark overlay over the background image */
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: -1;
+}
+
+h1, h2, h3, h4, h5, h6, .brand-logo {
+  font-family: 'Playfair Display', serif;
+}
+
+section {
+  padding: 4rem 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Mobile-first glassmorphism utility class */
+.glass-panel {
+  background: var(--glass-bg);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid var(--glass-border);
+  border-radius: 1.5rem;
+  padding: 2rem;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  margin-bottom: 4rem; /* Spacing between sections */
+}
+
+.heading {
+  text-align: center;
+  color: var(--soft-white);
+  font-size: 3.5rem;
+  margin-bottom: 1.5rem;
+  text-transform: capitalize;
+}
+
+.subheading {
+  text-align: center;
+  color: var(--cream);
+  font-size: 1.6rem;
+  margin-bottom: 4rem;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.6;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.2rem 3rem;
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: var(--soft-white);
+  background: var(--primary-brown);
+  border-radius: 5rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-align: center;
+  gap: 0.8rem;
+}
+
+.btn:hover {
+  background: var(--secondary-brown);
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+.btn-outline {
+  background: transparent;
+  border: 1px solid var(--cream);
+  color: var(--cream);
+}
+
+.btn-outline:hover {
+  background: var(--cream);
+  color: var(--primary-brown);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 0.8rem;
+}
+::-webkit-scrollbar-track {
+  background: rgba(0,0,0,0.5);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--primary-brown);
+  border-radius: 1rem;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--secondary-brown);
+}
+
+/* Desktop sizing adjustments */
+@media (min-width: 768px) {
+  html {
+    font-size: 60%;
+  }
+  section {
+    padding: 6rem 4rem;
+  }
+  .glass-panel {
+    padding: 4rem;
+    margin-bottom: 6rem;
+  }
+  .heading {
+    font-size: 4.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  html {
+    font-size: 62.5%;
+  }
+}

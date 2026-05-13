@@ -1,0 +1,99 @@
+.contact .row {
+  display: flex;
+  background: var(--black);
+  flex-wrap: wrap;
+  gap: 1rem;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.contact .row .map {
+  flex: 1 1 45rem;
+  width: 100%;
+  object-fit: cover;
+}
+
+.contact .row form {
+  flex: 1 1 45rem;
+  padding: 5rem 2rem;
+  text-align: center;
+}
+
+.contact .row form h3 {
+  text-transform: uppercase;
+  font-size: 3.5rem;
+  color: #fff;
+  margin-bottom: 2rem;
+}
+
+.contact .row form .inputBox {
+  display: flex;
+  align-items: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  background: var(--bg-color);
+  border: var(--border);
+  border-radius: .5rem;
+}
+
+.contact .row form .inputBox span {
+  color: #fff;
+  font-size: 2rem;
+  padding-left: 2rem;
+}
+
+.contact .row form .inputBox input {
+  width: 100%;
+  padding: 2rem;
+  font-size: 1.7rem;
+  color: #fff;
+  text-transform: none;
+  background: none;
+}
+
+.info-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-top: 4rem;
+}
+
+.info-container .info {
+  background: var(--black);
+  text-align: center;
+  padding: 3rem 2rem;
+  border-radius: 1rem;
+  flex: 1 1 30rem;
+  border: var(--border);
+}
+
+.info-container .info i {
+  font-size: 3rem;
+  color: var(--main-color);
+  margin-bottom: 1rem;
+}
+
+.info-container .info h3 {
+  font-size: 2rem;
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+.info-container .info p {
+  font-size: 1.5rem;
+  color: #ccc;
+}
+
+.mobile-call-btn {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .mobile-call-btn {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: .5rem 2rem;
+    font-size: 1.4rem;
+  }
+}

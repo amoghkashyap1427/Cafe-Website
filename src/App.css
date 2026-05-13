@@ -1,0 +1,9 @@
+/* App level specific styles - mostly layout if needed. Global styles moved to index.css */
+.App {
+  position: relative;
+  z-index: 1; /* Above the dark overlay */
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding-top: 8rem; /* space for fixed navbar */
+}
