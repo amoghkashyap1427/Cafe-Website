@@ -40,7 +40,6 @@ const Menu = () => {
             <h3>{item.name}</h3>
             <p>{item.desc}</p>
             <div className="price">{item.price}</div>
-            <a href="#" className="btn">Add to Cart</a>
           </div>
         ))}
       </div>

@@ -14,9 +14,9 @@
 
 .menu .filter-buttons .btn.active,
 .menu .filter-buttons .btn:hover {
-  background: var(--main-color);
-  color: var(--black);
-  border-color: var(--main-color);
+  background: var(--primary-brown);
+  color: var(--cream);
+  border-color: var(--primary-brown);
   letter-spacing: .1rem;
 }
 
@@ -38,7 +38,7 @@
 }
 
 .menu .box-container .box:hover > * {
-  color: var(--black);
+  color: var(--primary-brown);
 }
 
 .menu .box-container .box img {
@@ -63,12 +63,12 @@
 }
 
 .menu .box-container .box .price {
-  color: var(--main-color);
+  color: var(--cream);
   font-size: 2.5rem;
   padding: .5rem 0;
   font-weight: bold;
 }
 
 .menu .box-container .box:hover .price {
-  color: var(--black);
+  color: var(--secondary-brown);
 }
