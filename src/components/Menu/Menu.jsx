@@ -6,7 +6,7 @@ const menuData = [
   { id: 2, category: 'hot', name: 'Latte', desc: 'Smooth & creamy', price: '$4.50', img: 'https://images.unsplash.com/photo-1570968915860-54d5c301fa9f?q=80&w=2070&auto=format&fit=crop' },
   { id: 3, category: 'hot', name: 'Cappuccino', desc: 'Perfectly frothed', price: '$4.50', img: 'https://images.unsplash.com/photo-1534778101976-62847782c213?q=80&w=1974&auto=format&fit=crop' },
   { id: 4, category: 'cold', name: 'Iced Coffee', desc: 'Refreshing & crisp', price: '$4.00', img: 'https://images.unsplash.com/photo-1517701550927-30cf4ba1dba5?q=80&w=1974&auto=format&fit=crop' },
-  { id: 5, category: 'cold', name: 'Cold Brew', desc: 'Steeped for 18 hours', price: '$5.00', img: 'https://images.unsplash.com/photo-1461023058943-07cb14a97628?q=80&w=2070&auto=format&fit=crop' },
+  { id: 5, category: 'cold', name: 'Cold Brew', desc: 'Steeped for 18 hours', price: '$5.00', img: 'https://cdn.apartmenttherapy.info/image/upload/f_jpg,q_auto:eco,c_fill,g_auto,w_1500,ar_1:1/k%2Farchive%2F9eada0d203bfb580d801b478edd553465c7afb52' },
   { id: 6, category: 'cold', name: 'Iced Latte', desc: 'Chilled creamy goodness', price: '$5.50', img: 'https://images.unsplash.com/photo-1551024709-8f23befc6f87?q=80&w=2157&auto=format&fit=crop' },
   { id: 7, category: 'food', name: 'Avocado Toast', desc: 'Sourdough, chili flakes', price: '$8.50', img: 'https://images.unsplash.com/photo-1541519227354-08fa5d50c44d?q=80&w=2072&auto=format&fit=crop' },
   { id: 8, category: 'food', name: 'Croissant sandwich', desc: 'Ham and cheese', price: '$7.50', img: 'https://images.unsplash.com/photo-1509722747041-616f39b57569?q=80&w=2070&auto=format&fit=crop' },
