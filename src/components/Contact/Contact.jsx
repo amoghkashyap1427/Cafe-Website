@@ -8,7 +8,7 @@ const Contact = () => {
       <div className="row">
         <iframe 
           className="map" 
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.617540608796!2d-73.98822602353344!3d40.74844047138766!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259a9b3117469%3A0xd134e199a405a163!2sEmpire%20State%20Building!5e0!3m2!1sen!2sus!4v1684883492716!5m2!1sen!2sus" 
+          src="https://maps.google.com/maps?q=Vivekananda%20Global%20University&t=&z=15&ie=UTF8&iwloc=&output=embed" 
           allowFullScreen="" 
           loading="lazy" 
           title="Google Map Placeholder"
@@ -36,7 +36,7 @@ const Contact = () => {
         <div className="info">
           <i className="fas fa-map-marker-alt"></i>
           <h3>Address</h3>
-          <p>Malviya Nagar, Jaipur, India - 302004</p>
+          <p>Vivekananda Global University, Jagatpura, Jaipur - 303012</p>
         </div>
         <div className="info">
           <i className="fas fa-envelope"></i>
