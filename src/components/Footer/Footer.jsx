@@ -40,7 +40,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="credit"><span>2026</span> | All rights reserved </div>
+      <div className="credit"><span>Made by Amogh Kashyap 2026</span> | All rights reserved </div>
     </section>
   );
 };

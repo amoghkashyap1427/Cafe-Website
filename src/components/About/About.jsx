@@ -27,9 +27,9 @@ const About = () => {
         <div className="owner-profile">
           <img src="https://images.unsplash.com/photo-1583394838336-acd977736f90?q=80&w=1984&auto=format&fit=crop" alt="Cafe Owner" className="owner-img" />
           <div className="owner-info">
-            <h3>David Anderson</h3>
+            <h3>Amogh Kashyap</h3>
             <span>Head Roaster & Founder</span>
-            <p>With over 15 years of experience in the coffee industry, David opened this cafe with a simple mission: to serve the perfect cup of coffee while building a warm community. When he's not roasting beans, you can find him chatting with customers at the counter.</p>
+            <p>With over 15 years of experience in the coffee industry, Amogh opened this cafe with a simple mission: to serve the perfect cup of coffee while building a warm community. When he's not roasting beans, you can find him chatting with customers at the counter.</p>
           </div>
         </div>
       </div>

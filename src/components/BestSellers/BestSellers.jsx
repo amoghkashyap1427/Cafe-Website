@@ -4,23 +4,23 @@ const BestSellers = () => {
   const products = [
     {
       id: 1,
-      name: 'Espresso Blend',
-      description: 'Bold, rich, and packed with flavor. Perfect for those who crave an intense coffee experience.',
-      price: '$15.99 / 12 oz',
+      name: 'South Indian Filter Coffee',
+      description: 'Authentic, rich, and packed with flavor. Perfect for those who crave a traditional experience.',
+      price: '₹350 / 250g',
       image: 'https://images.unsplash.com/photo-1585421514284-efb74c2b69ba?auto=format&fit=crop&w=300&q=80'
     },
     {
       id: 2,
-      name: 'House Blend',
-      description: 'A smooth and balanced blend ideal for every occasion. Light, medium roast with notes of caramel and chocolate.',
-      price: '$12.99 / 12 oz',
+      name: 'Assam Kadak Chai',
+      description: 'A strong and balanced tea blend ideal for every occasion. With notes of ginger and cardamom.',
+      price: '₹250 / 250g',
       image: 'https://images.unsplash.com/photo-1557142046-c704a3adf364?auto=format&fit=crop&w=300&q=80'
     },
     {
       id: 3,
-      name: 'Cold Brew Concentrate',
-      description: 'Refreshing, smooth, and ready-to-drink. Our cold brew concentrate is perfect for hot days or a quick pick-me-up.',
-      price: '$18.99 / 16 oz',
+      name: 'Cold Coffee Premix',
+      description: 'Refreshing, smooth, and ready-to-drink. Perfect for hot Indian summers.',
+      price: '₹450 / 500g',
       image: 'https://images.unsplash.com/photo-1461023058943-07fcbe16d735?auto=format&fit=crop&w=300&q=80'
     }
   ];
