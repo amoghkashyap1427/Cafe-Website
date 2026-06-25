@@ -4,21 +4,21 @@ const reviewData = [
   {
     id: 1,
     name: "Sara",
-    img: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=1974&auto=format&fit=crop",
+    img: "https://plus.unsplash.com/premium_photo-1688522732312-176d19f60af2?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8c2luZ2xlJTIwZ2lybHxlbnwwfHwwfHx8MA%3D%3D",
     text: "Absolutely the best coffee in town. The ambiance is incredibly cozy and the staff is always welcoming. Their Paneer Tikka Sandwich is a must-try!",
     rating: 5
   },
   {
     id: 2,
     name: "Mohan",
-    img: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1974&auto=format&fit=crop",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVL92YX7AKl-c1BNykfYppoaEZWw0P8x9gSoZEGlfNDR2jVUJQifrqu3dJ&s=10",
     text: "I come here every morning to work. The Wi-Fi is fast, the coffee is exceptional, and the background music is just perfect for focusing.",
     rating: 5
   },
   {
     id: 3,
     name: "Rishi",
-    img: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=2070&auto=format&fit=crop",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSChwQQsMsQfsk8gtFk6TJFg-2gp5QucznwEuuSCmBfJ-bolZahHaGaHVqb&s=10",
     text: "Such a beautiful cafe! The interior design is stunning and highly photogenic. The iced latte was refreshing and beautifully presented.",
     rating: 4
   }
