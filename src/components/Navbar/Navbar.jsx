@@ -20,7 +20,7 @@ const Navbar = () => {
   return (
     <header className={`header ${scrolled ? 'scrolled' : ''}`}>
       <a href="#" className="logo">
-        <span className="brand-logo">Amogh's Cafe</span>
+        <span className="brand-logo">Cafe</span>
       </a>
 
       <nav className={`navbar ${isOpen ? 'active' : ''}`}>

@@ -7,21 +7,21 @@ const BestSellers = () => {
       name: 'South Indian Filter Coffee',
       description: 'Authentic, rich, and packed with flavor. Perfect for those who crave a traditional experience.',
       price: '₹350 / 250g',
-      image: 'https://images.unsplash.com/photo-1585421514284-efb74c2b69ba?auto=format&fit=crop&w=300&q=80'
+      image: 'https://images.unsplash.com/photo-1551687023-e40df5f1ef1e?auto=format&fit=crop&w=500&q=80'
     },
     {
       id: 2,
       name: 'Assam Kadak Chai',
       description: 'A strong and balanced tea blend ideal for every occasion. With notes of ginger and cardamom.',
       price: '₹250 / 250g',
-      image: 'https://images.unsplash.com/photo-1557142046-c704a3adf364?auto=format&fit=crop&w=300&q=80'
+      image: 'https://images.unsplash.com/photo-1574856344991-afa31b8853d4?auto=format&fit=crop&w=500&q=80'
     },
     {
       id: 3,
       name: 'Cold Coffee Premix',
       description: 'Refreshing, smooth, and ready-to-drink. Perfect for hot Indian summers.',
       price: '₹450 / 500g',
-      image: 'https://images.unsplash.com/photo-1461023058943-07fcbe16d735?auto=format&fit=crop&w=300&q=80'
+      image: 'https://images.unsplash.com/photo-1461023058943-07fcbe16d735?auto=format&fit=crop&w=500&q=80'
     }
   ];
 
